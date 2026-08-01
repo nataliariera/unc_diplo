@@ -1,0 +1,41 @@
+Evaluación métricas
+
+************************************* REGEX *************************************
+
+📋 REPORTE DE EVALUACIÓN AUTOMÁTICA
+--------------------------------------------------
+• Entidades Totales (Gold Standard): 56
+• Predicciones Totales Realizadas:   11
+• Coincidencias Exactas (Correctas): 1
+
+📊 MÉTRICAS CALCULADAS
+--------------------------------------------------
+• Precisión (Precision):   0.0909  (De lo que predijo, cuánto era correcto)
+• Exhaustividad (Recall):   0.0179  (De lo que existía, cuánto detectó)
+• F1-Score:                 0.0299  (Balance/Media armónica)
+
+************************************* SPACY *************************************
+📋 REPORTE DE EVALUACIÓN AUTOMÁTICA
+--------------------------------------------------
+• Entidades Totales (Gold Standard): 56
+• Predicciones Totales Realizadas:   62
+• Coincidencias Exactas (Correctas): 38
+
+📊 MÉTRICAS CALCULADAS
+--------------------------------------------------
+• Precisión (Precision):   0.6129  (De lo que predijo, cuánto era correcto)
+• Exhaustividad (Recall):   0.6786  (De lo que existía, cuánto detectó)
+• F1-Score:                 0.6441  (Balance/Media armónica)
+
+************************************ STANZA *************************************
+📋 REPORTE DE EVALUACIÓN AUTOMÁTICA
+--------------------------------------------------
+• Entidades Totales (Gold Standard): 56
+• Predicciones Totales Realizadas:   59
+• Coincidencias Exactas (Correctas): 36
+
+📊 MÉTRICAS CALCULADAS
+--------------------------------------------------
+• Precisión (Precision):   0.6102  (De lo que predijo, cuánto era correcto)
+• Exhaustividad (Recall):   0.6429  (De lo que existía, cuánto detectó)
+• F1-Score:                 0.6261  (Balance/Media armónica)
