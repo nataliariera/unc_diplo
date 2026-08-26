@@ -1,0 +1,248 @@
+
+                        <!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+							<style>
+								body {
+									background-color: white; /* Ensure the iframe has a white background */
+								}
+
+								
+							</style>
+                        </head>
+                        <body>
+                            <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFood UI Localization Test - Spanish</title>
+    <style>
+        /* Reset básico para asegurar que se vea igual en todos lados */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            color: #3e3e3e;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1100px;
+            width: 100%;
+        }
+
+        /* Header */
+        .header {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        /* Categorías */
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 15px;
+            margin-bottom: 50px;
+        }
+
+        .category-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .category-icon {
+            width: 70px;
+            height: 70px;
+            background-color: #f8f8f8;
+            border-radius: 16px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .category-label {
+            font-size: 13px;
+            font-weight: 500;
+            color: #3e3e3e;
+        }
+
+        /* Banners */
+        .banners-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .banner {
+            border-radius: 24px;
+            height: 220px;
+            position: relative;
+            overflow: hidden;
+            padding: 25px;
+            display: flex;
+        }
+
+        /* Banner 1: Amarillo */
+        .banner-1 {
+            background: linear-gradient(135deg, #ffc107 0%, #ff8f00 100%);
+            color: #3e3e3e;
+        }
+        .banner-1 .badge {
+            background-color: #ea1d2c;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-weight: 800;
+            font-size: 16px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .banner-1 .promo-text {
+            font-weight: 800;
+            font-size: 26px;
+            line-height: 1.1;
+        }
+        .banner-1 .sub-text {
+            font-size: 14px;
+            margin-top: 8px;
+            font-weight: 600;
+        }
+
+        /* Banner 2: Rosa/Rojo */
+        .banner-2 {
+            background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);
+            color: white;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .bubble {
+            background: white;
+            color: #3e3e3e;
+            border-radius: 20px;
+            padding: 6px 14px;
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .banner-2 .highlight {
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        /* Banner 3: Rojo Oscuro */
+        .banner-3 {
+            background: linear-gradient(135deg, #d32f2f 0%, #880e4f 100%);
+            color: white;
+            justify-content: flex-end;
+        }
+        .banner-3 .content-right {
+            width: 100%;
+            text-align: left;
+        }
+        .banner-3 .title-large {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 12px;
+        }
+        .banner-3 .cta {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .cta-icon {
+            width: 22px;
+            height: 22px;
+            background: white;
+            border-radius: 50%;
+            margin-right: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ea1d2c;
+            font-size: 12px;
+        }
+
+        /* Responsive para pantallas pequeñas */
+        @media (max-width: 900px) {
+            .categories-grid { grid-template-columns: repeat(4, 1fr); }
+            .banners-container { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header -->
+    <div class="header">
+        ¡Pedir tu delivery en iFood es rápido y práctico! ¡Conoce las categorías!
+    </div>
+
+    <!-- Categorías -->
+    <div class="categories-grid">
+        <div class="category-item"><div class="category-icon">🚚</div><div class="category-label">Entrega rápida</div></div>
+        <div class="category-item"><div class="category-icon">🎁</div><div class="category-label">Regalos</div></div>
+        <div class="category-item"><div class="category-icon">🏷️</div><div class="category-label">Ofertas</div></div>
+        <div class="category-item"><div class="category-icon">🧸</div><div class="category-label">Juguetes</div></div>
+        <div class="category-item"><div class="category-icon">🍳</div><div class="category-label">Utensilios</div></div>
+        <div class="category-item"><div class="category-icon">💐</div><div class="category-label">Flores y cestas</div></div>
+        <div class="category-item"><div class="category-icon">🧴</div><div class="category-label">Perfumería</div></div>
+        <div class="category-item"><div class="category-icon">👗</div><div class="category-label">Moda</div></div>
+    </div>
+
+    <!-- Banners -->
+    <div class="banners-container">
+        
+        <!-- Banner 1 (Ajustado) -->
+        <div class="banner banner-1">
+            <div>
+                <div class="badge">SUPER OFERTAS</div>
+                <div class="promo-text">juguetes<br>con hasta<br>50% OFF</div>
+                <div class="sub-text">en minutos</div>
+            </div>
+        </div>
+
+        <!-- Banner 2 (Ajustado) -->
+        <div class="banner banner-2">
+            <div class="bubble">regalos para todo momento</div>
+            <div class="highlight">llega en minutos</div>
+        </div>
+
+        <!-- Banner 3 (Ajustado) -->
+        <div class="banner banner-3">
+            <div class="content-right">
+                <div class="title-large">pide lo que quieras sin gastar de más</div>
+                <div class="cta">
+                    <div class="cta-icon">🔄</div>
+                    págalo hasta en 6x
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
+
+							<script>
+                            	
+							</script>
+                        </body>
+                        </html>
+                    
