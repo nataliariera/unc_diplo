@@ -1,0 +1,26 @@
+[
+  {"source": "limb", "target": "rama", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Uso metafórico/filosófico: 'las ocho ramas del yoga'."},
+  {"source": "limb", "target": "miembro", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Sentido literal, usado al explicar que 'Anga' significa parte del cuerpo."},
+  {"source": "limb", "target": "extremidad", "locale": "es-ES", "domain": "técnico", "status": "forbidden", "notes": "Término anatómico-médico; no corresponde al sentido filosófico de 'rama' o 'miembro' en este contexto."},
+
+  {"source": "posture", "target": "postura", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Traducción directa y estándar de Asana."},
+
+  {"source": "breath control", "target": "control de la respiración", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Definición estándar de Pranayama en textos de yoga en español."},
+
+  {"source": "sense withdrawal", "target": "retirada de los sentidos", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Definición estándar de Pratyahara."},
+
+  {"source": "oneness with the self", "target": "unidad con el ser", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Definición estándar de Samadhi."},
+  {"source": "oneness with the self", "target": "unicidad con uno mismo", "locale": "es-ES", "domain": "técnico", "status": "forbidden", "notes": "Calco forzado del inglés; se prefiere 'unidad con el ser'."},
+
+  {"source": "vinyasa", "target": "vinyasa", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Término sánscrito consolidado; no se traduce en textos de yoga en español."},
+
+  {"source": "hatha yoga", "target": "hatha yoga", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Se mantiene el orden y la forma del término compuesto, tal como se usa en la comunidad hispanohablante."},
+  {"source": "hatha yoga", "target": "yoga hatha", "locale": "es-ES", "domain": "técnico", "status": "forbidden", "notes": "Inversión incorrecta del orden; no es la forma establecida en español para este término técnico."},
+
+  {"source": "moral codes", "target": "códigos morales", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Definición estándar de Yama."},
+
+  {"source": "self-discipline", "target": "autodisciplina", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Definición estándar de Niyama."},
+
+  {"source": "Sun Salutation", "target": "Saludo al Sol", "locale": "es-ES", "domain": "técnico", "status": "approved", "notes": "Traducción cultural consolidada de Surya Namaskar."},
+  {"source": "Sun Salutation", "target": "Salutación Solar", "locale": "es-ES", "domain": "técnico", "status": "forbidden", "notes": "Calco poco natural; no es el término asentado en español."}
+]
